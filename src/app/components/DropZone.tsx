@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import { DropEvent, FileRejection, useDropzone } from 'react-dropzone';
-import Button from '@mui/material/Button';
 
 type TDropzone = {
   onDrop: (acceptedFiles: File[]) => void;
